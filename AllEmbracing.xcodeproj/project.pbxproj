@@ -8,20 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		8AE78C9027F2BC7B00E79088 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE78C8F27F2BC7B00E79088 /* AppDelegate.m */; };
-		8AE78C9227F2BC7B00E79088 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE78C9127F2BC7B00E79088 /* ContentView.swift */; };
 		8AE78C9427F2BC7D00E79088 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AE78C9327F2BC7D00E79088 /* Assets.xcassets */; };
 		8AE78C9727F2BC7D00E79088 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AE78C9527F2BC7D00E79088 /* LaunchScreen.storyboard */; };
 		8AE78C9927F2BC7D00E79088 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE78C9827F2BC7D00E79088 /* main.m */; };
+		8AE78CA127F2BCD900E79088 /* XHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE78CA027F2BCD900E79088 /* XHViewController.m */; };
+		8AE78CA727F2BDC800E79088 /* XHTabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE78CA627F2BDC800E79088 /* XHTabbarViewController.m */; };
+		8AE9ED1827F549E100C0F5C3 /* XHNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE9ED1727F549E100C0F5C3 /* XHNavigationViewController.m */; };
+		8AE9ED1C27F54B7700C0F5C3 /* XHHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE9ED1B27F54B7700C0F5C3 /* XHHomeViewController.m */; };
+		8AE9ED1F27F5526100C0F5C3 /* XHServiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE9ED1E27F5526100C0F5C3 /* XHServiceViewController.m */; };
+		8AE9ED2327F5536000C0F5C3 /* XHShopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE9ED2227F5536000C0F5C3 /* XHShopViewController.m */; };
+		8AE9ED2627F553E400C0F5C3 /* XHMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE9ED2527F553E400C0F5C3 /* XHMineViewController.m */; };
+		8AF469BE27FE78AC00259B78 /* XHTimerTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF469BD27FE78AC00259B78 /* XHTimerTestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8AE78C8B27F2BC7B00E79088 /* AllEmbracing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AllEmbracing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AE78C8E27F2BC7B00E79088 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8AE78C8F27F2BC7B00E79088 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8AE78C9127F2BC7B00E79088 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8AE78C9327F2BC7D00E79088 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8AE78C9627F2BC7D00E79088 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8AE78C9827F2BC7D00E79088 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8AE78C9F27F2BCD900E79088 /* XHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XHViewController.h; sourceTree = "<group>"; };
+		8AE78CA027F2BCD900E79088 /* XHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHViewController.m; sourceTree = "<group>"; };
+		8AE78CA527F2BDC800E79088 /* XHTabbarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XHTabbarViewController.h; sourceTree = "<group>"; };
+		8AE78CA627F2BDC800E79088 /* XHTabbarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHTabbarViewController.m; sourceTree = "<group>"; };
+		8AE9ED1627F549E100C0F5C3 /* XHNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XHNavigationViewController.h; sourceTree = "<group>"; };
+		8AE9ED1727F549E100C0F5C3 /* XHNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHNavigationViewController.m; sourceTree = "<group>"; };
+		8AE9ED1A27F54B7700C0F5C3 /* XHHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XHHomeViewController.h; sourceTree = "<group>"; };
+		8AE9ED1B27F54B7700C0F5C3 /* XHHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHHomeViewController.m; sourceTree = "<group>"; };
+		8AE9ED1D27F5526100C0F5C3 /* XHServiceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XHServiceViewController.h; sourceTree = "<group>"; };
+		8AE9ED1E27F5526100C0F5C3 /* XHServiceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHServiceViewController.m; sourceTree = "<group>"; };
+		8AE9ED2127F5536000C0F5C3 /* XHShopViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XHShopViewController.h; sourceTree = "<group>"; };
+		8AE9ED2227F5536000C0F5C3 /* XHShopViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHShopViewController.m; sourceTree = "<group>"; };
+		8AE9ED2427F553E400C0F5C3 /* XHMineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XHMineViewController.h; sourceTree = "<group>"; };
+		8AE9ED2527F553E400C0F5C3 /* XHMineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHMineViewController.m; sourceTree = "<group>"; };
+		8AF469BC27FE78AC00259B78 /* XHTimerTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XHTimerTestViewController.h; sourceTree = "<group>"; };
+		8AF469BD27FE78AC00259B78 /* XHTimerTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHTimerTestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +78,51 @@
 			children = (
 				8AE78C8E27F2BC7B00E79088 /* AppDelegate.h */,
 				8AE78C8F27F2BC7B00E79088 /* AppDelegate.m */,
-				8AE78C9127F2BC7B00E79088 /* ContentView.swift */,
+				8AF469BB27FE782F00259B78 /* OtherController */,
+				8AE9ED2027F5527400C0F5C3 /* BaseController */,
+				8AE9ED1927F54B4800C0F5C3 /* ViewControllers */,
 				8AE78C9327F2BC7D00E79088 /* Assets.xcassets */,
 				8AE78C9527F2BC7D00E79088 /* LaunchScreen.storyboard */,
 				8AE78C9827F2BC7D00E79088 /* main.m */,
 			);
 			path = AllEmbracing;
+			sourceTree = "<group>";
+		};
+		8AE9ED1927F54B4800C0F5C3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8AE9ED1A27F54B7700C0F5C3 /* XHHomeViewController.h */,
+				8AE9ED1B27F54B7700C0F5C3 /* XHHomeViewController.m */,
+				8AE9ED1D27F5526100C0F5C3 /* XHServiceViewController.h */,
+				8AE9ED1E27F5526100C0F5C3 /* XHServiceViewController.m */,
+				8AE9ED2127F5536000C0F5C3 /* XHShopViewController.h */,
+				8AE9ED2227F5536000C0F5C3 /* XHShopViewController.m */,
+				8AE9ED2427F553E400C0F5C3 /* XHMineViewController.h */,
+				8AE9ED2527F553E400C0F5C3 /* XHMineViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8AE9ED2027F5527400C0F5C3 /* BaseController */ = {
+			isa = PBXGroup;
+			children = (
+				8AE78C9F27F2BCD900E79088 /* XHViewController.h */,
+				8AE78CA027F2BCD900E79088 /* XHViewController.m */,
+				8AE9ED1627F549E100C0F5C3 /* XHNavigationViewController.h */,
+				8AE9ED1727F549E100C0F5C3 /* XHNavigationViewController.m */,
+				8AE78CA527F2BDC800E79088 /* XHTabbarViewController.h */,
+				8AE78CA627F2BDC800E79088 /* XHTabbarViewController.m */,
+			);
+			path = BaseController;
+			sourceTree = "<group>";
+		};
+		8AF469BB27FE782F00259B78 /* OtherController */ = {
+			isa = PBXGroup;
+			children = (
+				8AF469BC27FE78AC00259B78 /* XHTimerTestViewController.h */,
+				8AF469BD27FE78AC00259B78 /* XHTimerTestViewController.m */,
+			);
+			path = OtherController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -91,8 +152,10 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				CLASSPREFIX = XH;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
+				ORGANIZATIONNAME = com.gexuhui.allembracing;
 				TargetAttributes = {
 					8AE78C8A27F2BC7B00E79088 = {
 						CreatedOnToolsVersion = 13.2.1;
@@ -134,9 +197,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8AE78C9227F2BC7B00E79088 /* ContentView.swift in Sources */,
+				8AF469BE27FE78AC00259B78 /* XHTimerTestViewController.m in Sources */,
+				8AE78CA727F2BDC800E79088 /* XHTabbarViewController.m in Sources */,
+				8AE9ED1827F549E100C0F5C3 /* XHNavigationViewController.m in Sources */,
+				8AE9ED2327F5536000C0F5C3 /* XHShopViewController.m in Sources */,
 				8AE78C9927F2BC7D00E79088 /* main.m in Sources */,
 				8AE78C9027F2BC7B00E79088 /* AppDelegate.m in Sources */,
+				8AE9ED1F27F5526100C0F5C3 /* XHServiceViewController.m in Sources */,
+				8AE78CA127F2BCD900E79088 /* XHViewController.m in Sources */,
+				8AE9ED1C27F54B7700C0F5C3 /* XHHomeViewController.m in Sources */,
+				8AE9ED2627F553E400C0F5C3 /* XHMineViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,7 +275,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -258,7 +328,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -273,7 +343,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = HA747N2Q99;
+				DEVELOPMENT_TEAM = 58TWBJRA56;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -298,7 +368,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = HA747N2Q99;
+				DEVELOPMENT_TEAM = 58TWBJRA56;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;

@@ -6,6 +6,7 @@
 //
 
 #import "AppDelegate.h"
+#import "XHTabbarViewController.h"
 
 @interface AppDelegate ()
 
@@ -18,9 +19,11 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
-
-    UITabBarController *tabBarController = [[UITabBarController alloc] init];
-    self.window.rootViewController = tabBarController;
+    
+    XHTabbarViewController *tab = [[XHTabbarViewController alloc] init];
+    [tab addChildTabControllers];
+    
+    self.window.rootViewController = tab;
     return YES;
 }
 
